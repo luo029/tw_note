@@ -1,0 +1,11 @@
+created: 20240317114949394
+creator: sicheng
+modified: 20240317115026108
+modifier: sicheng
+tags: 大纲笔记
+title: 视频笔记
+type: text/vnd.tiddlywiki
+
+查找 <$edit-text tiddler="$:/temp/demo/dtable/search" filed=text tag=input default=""/> <$button set="$:/temp/demo/dtable/search" setTo="" tooltip="clear searchbox">x</$button>
+
+<$macrocall $name=table-dynamic filter="[tag[视频]]" class="w-100" fields="tbl-expand title caption-zh" caption="''条目''" />
