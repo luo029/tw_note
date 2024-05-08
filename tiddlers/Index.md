@@ -3,5 +3,5 @@
 > ——闵智亭道长著 《道教仪范》
 
 
-* 一共有<$count filter="[!is[system]!is[image]]"/>条笔记
+* 一共有<$count filter="[!is[system]!is[image]]"/>条[[笔记]]
 * 最近一次记笔记在 <$list filter="[!is[system]!sort[modified]limit[1]]"><$view field="modified" format="date" template="YYYY 年 0MM 月 DD 日 0hh:0mm"/></$list>
